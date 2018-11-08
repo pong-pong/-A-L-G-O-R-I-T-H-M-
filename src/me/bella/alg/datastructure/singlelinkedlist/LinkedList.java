@@ -96,7 +96,7 @@ public class LinkedList<T> {
      * Get a last index of the data in the linked list
      *
      * @param t the data to get the index
-     * @return the first index of the data
+     * @return the last index of the data
      */
     public int lastIndexOf(T t) {
         ListElem<T> tmp = firstNode;
